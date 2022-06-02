@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLine Train</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> SkyLine Train </a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <a href="login" ><div class="fas fa-user" id="login-btn"></div></a>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image" data-aos="fade-down">
+        <img src="{% static 'images/home-img.svg'%}" alt="">
+    </div>
+
+    <div class="content" data-aos="fade-up">
+        <h3>adventure is worthwhile</h3>
+        <p>Travelling by train throughout India is a memorable and enjoyable experience. India is a vast country, where distances between capital cities are lengthy and what better way to see the Indian countryside than by train. SkyLine Train Online represents a number of different train journeys covering many regions of India.</p>
+        <a href="login" class="btn">explore now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="zoom-in">
+            <span>01</span>
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>We also provide a hotel services nearby every station accross the country.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>02</span>
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>We provide a fastest journey to the passenger to reach thier destination as soon as possible.</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>03</span>
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>We provide foods and drink for free of cost to our passengers</p>
+        </div>
+
+        <div class="box" data-aos="zoom-in">
+            <span>04</span>
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>We always keep a safety of our all passengers throughtout their Journey</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <form action="" data-aos="zoom">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name" data-aos="fade-up">
+            <input type="email" placeholder="email" data-aos="fade-up">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number" data-aos="fade-up">
+            <input type="text" placeholder="subject" data-aos="fade-up">
+        </div>
+
+        <textarea name="" placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+        
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blog section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="{% static 'images/blog-1.svg'%}" alt="">
+            </div>
+            <div class="content">
+                <h3>explore the world now, adventure awaits</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="{% static 'images/blog-2.svg'%}" alt="">
+            </div>
+            <div class="content">
+                <h3>explore the world now, adventure awaits</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <div class="image">
+                <img src="{% static 'images/blog-3.svg'%}" alt="">
+            </div>
+            <div class="content">
+                <h3>explore the world now, adventure awaits</h3>
+                <a href="#" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st jan, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blog section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-up">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> canada </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> book tickets </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> login </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> register </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> contact </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> aboutus </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 8888888856 </a>
+            <a href="#"> <i class="fas fa-envelop"></i> skylinetrain@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> mumbai, India - 400104 </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> creadet by <span>SkyLine Train</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="{% static 'js/script.js' %}"></script>
+
+<script>
+
+AOS.init({
+    duration:800,
+    delay:400
+});
+
+</script>
+
+</body>
+</html>
+
+
